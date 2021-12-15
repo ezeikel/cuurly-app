@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "CuurlyApp",
-    "slug": "CuurlyApp",
+    "name": "Cuurly",
+    "slug": "cuurly",
     "version": "1.0.0",
+    "owner": "1188",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
@@ -19,7 +20,9 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "agency.1188.cuurly",
+      "buildNumber": "0.0.1"
     },
     "android": {
       "adaptiveIcon": {
